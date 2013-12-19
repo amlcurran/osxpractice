@@ -18,6 +18,10 @@
 		860930C318624D4E0019D1CB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 860930A218624D4E0019D1CB /* Cocoa.framework */; };
 		860930CB18624D4E0019D1CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 860930C918624D4E0019D1CB /* InfoPlist.strings */; };
 		860930CD18624D4E0019D1CB /* osxpracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 860930CC18624D4E0019D1CB /* osxpracticeTests.m */; };
+		860930D818625DFD0019D1CB /* WikiFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 860930D718625DFD0019D1CB /* WikiFeedItem.m */; };
+		860930D918625DFD0019D1CB /* WikiFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 860930D718625DFD0019D1CB /* WikiFeedItem.m */; };
+		860930DC18625EDB0019D1CB /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 860930DB18625EDB0019D1CB /* XMLReader.m */; };
+		860930DD18625EDB0019D1CB /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 860930DB18625EDB0019D1CB /* XMLReader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +54,10 @@
 		860930C818624D4E0019D1CB /* osxpracticeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "osxpracticeTests-Info.plist"; sourceTree = "<group>"; };
 		860930CA18624D4E0019D1CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		860930CC18624D4E0019D1CB /* osxpracticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = osxpracticeTests.m; sourceTree = "<group>"; };
+		860930D618625DFD0019D1CB /* WikiFeedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WikiFeedItem.h; sourceTree = "<group>"; };
+		860930D718625DFD0019D1CB /* WikiFeedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WikiFeedItem.m; sourceTree = "<group>"; };
+		860930DA18625EDB0019D1CB /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		860930DB18625EDB0019D1CB /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,9 +125,13 @@
 			children = (
 				860930B418624D4E0019D1CB /* AppDelegate.h */,
 				860930B518624D4E0019D1CB /* AppDelegate.m */,
+				860930DA18625EDB0019D1CB /* XMLReader.h */,
+				860930DB18625EDB0019D1CB /* XMLReader.m */,
 				860930B718624D4E0019D1CB /* MainMenu.xib */,
 				860930BA18624D4E0019D1CB /* Images.xcassets */,
 				860930A918624D4E0019D1CB /* Supporting Files */,
+				860930D618625DFD0019D1CB /* WikiFeedItem.h */,
+				860930D718625DFD0019D1CB /* WikiFeedItem.m */,
 			);
 			path = osxpractice;
 			sourceTree = "<group>";
@@ -254,6 +266,8 @@
 			files = (
 				860930B618624D4E0019D1CB /* AppDelegate.m in Sources */,
 				860930AF18624D4E0019D1CB /* main.m in Sources */,
+				860930DC18625EDB0019D1CB /* XMLReader.m in Sources */,
+				860930D818625DFD0019D1CB /* WikiFeedItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				860930D918625DFD0019D1CB /* WikiFeedItem.m in Sources */,
+				860930DD18625EDB0019D1CB /* XMLReader.m in Sources */,
 				860930CD18624D4E0019D1CB /* osxpracticeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

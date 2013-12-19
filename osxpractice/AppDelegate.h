@@ -10,8 +10,7 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet NSWindow *window;
-@property (weak) IBOutlet NSTextField *result;
-@property (weak) IBOutlet NSImageView *weatherImage;
+@property (assign) IBOutlet NSWindow *window;@property (weak) IBOutlet NSImageView *weatherImage;
+@property (unsafe_unretained) IBOutlet NSTextView *result;
 
 @end
